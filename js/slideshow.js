@@ -1,6 +1,6 @@
 /*CRIANDO UM SLIDESHOW AUTOMÁTICO */
 
-//DECLARANDO AS VARIAVEIS 
+//VARIAVEIS 
 
 //ARRAY
 let imagens=['../img/animaisbanner.jpg','../img/animaisbanner2.jpg'];
