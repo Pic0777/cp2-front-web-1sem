@@ -6,6 +6,7 @@
 }
 body{
     background-color: #B1D8FF;
+    background-image: linear-gradient(to right,#B1D8FF,#1e65b0);
 }
 header{
     width: 100%;
@@ -41,16 +42,39 @@ nav ul li a:hover{
     transition: .5s;
     box-shadow: 10px 10px 10px;
 }
+nav input{
+    height: 25px;
+    margin-top: 3.9%;
+    margin-left: 5%;
+    width: 30%;
+    border-radius: 40px;
+    padding-left: 1%;
+}
+#login{
+    margin-left: 3%;
+    margin-top: 3.5%;
+    color: white;
+}
+#login span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#login span:hover{
+    color: #f6e5c5;
+}
+#login img{
+   width: 40%;
+   margin-top: -15%;
+}
 #banner img{
     width: 100%;
 }
-
 
 #destaques h2{
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* CARDS */
 .cards{
     background-image: linear-gradient(#f9de94,#2B6AAD);
     margin-left: 80px;
@@ -76,7 +100,7 @@ nav ul li a:hover{
     height: 400px;
     box-shadow: 0 0 100px #ffbb00;
 }
-
+/* SOBRE */
 #sobre{
     margin-top: 3%;
 }
@@ -85,7 +109,6 @@ nav ul li a:hover{
     margin-bottom: 3%;
     background-image:linear-gradient(#f6e5c5,#f9de94) ;
 }
-
 #sobre-conteudo{
     display: flex;
 }
@@ -111,7 +134,7 @@ nav ul li a:hover{
     text-align: justify;
     margin-top: 3%;
 }
-
+/* PRODUTOS */
 #produtos{
     margin-top: 3%;
 }
@@ -121,7 +144,7 @@ nav ul li a:hover{
     background-image:linear-gradient(#f6e5c5,#f9de94) ;
     margin-bottom: 2%;
 }
-
+/* ANIMAIS*/
 #animais{
     margin-top: 3%;
 }
@@ -130,4 +153,79 @@ nav ul li a:hover{
     text-align: center;
     background-image:linear-gradient(#f6e5c5,#f9de94) ;
     margin-bottom: 2%;
+}
+
+/* CONTATO */
+#contato{
+    margin-top: 3%;
+}
+
+#contato h1{
+    text-align: center;
+    background-image:linear-gradient(#f6e5c5,#f9de94) ;
+}
+
+#contato-conteudo1{
+    display: flex;
+    margin-left: 6%;
+}
+#endereco{
+    display:table-column;
+    width: 50%;
+}
+#contato-conteudo1 #endereco iframe{
+    margin-left: 4%;
+}
+
+#contato-conteudo1 #endereco h3{
+    margin-left: 3%;
+    margin-top: 2%;
+    text-align: center;
+}
+#contato-conteudo1 #endereco h5{
+    text-align: center;
+}
+#contato-conteudo2{
+    margin-top: 1.5%;
+    width: 50%;
+}
+
+#contato-conteudo2 #telefone{
+    margin-bottom: 3%;
+}
+
+#contato-conteudo2 #telefone h3{
+    margin-left: 30%;
+    margin-bottom: 1%;
+}
+
+#contato-conteudo2 #telefone h4{
+    margin-left: 23%;
+    font-size: large;
+}
+#contato-conteudo2 #telefone img{
+    width: 5%;
+    float: left;
+}
+
+#contato-conteudo2 #redes-sociais{
+    margin-bottom: -10%;
+}
+#contato-conteudo2 #redes-sociais h3{
+    margin-left: 26%;
+}
+
+#contato-conteudo2 #redes-sociais #redes-sociais-imgs{
+    margin-left: 18%;
+}
+#contato-conteudo2 #redes-sociais #redes-sociais-imgs img{
+    width: 8%;
+}
+
+#logo-grande img{
+    width: 75%;
+}
+
+footer{
+    background-image:linear-gradient(#f6e5c5,#f9de94) ; 
 }
