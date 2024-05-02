@@ -84,7 +84,7 @@ nav input{
     cursor: pointer;
     display: inline-block;
     position: relative;
-    height: 260px;
+    height: 270px;
     text-align: center;
     padding-top: 2%;
     color: white;
@@ -95,7 +95,7 @@ nav input{
     width: 90%;
 }
 .cards:hover{
-    height: 100%;
+    height: fit-content;
     box-shadow: 0 0 100px #ffbb00;
 }
 /* SOBRE */
@@ -268,6 +268,7 @@ footer{
     .cards {
         margin-left: 10px;
         width: 90%;
+        height: 100%;
     }
 
     #sobre-conteudo, #sobre-conteudo2, #contato-conteudo1 {
