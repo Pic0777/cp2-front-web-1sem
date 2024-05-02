@@ -84,8 +84,7 @@ nav input{
     cursor: pointer;
     display: inline-block;
     position: relative;
-    height: 269px;
-    transition: 1s;
+    height: 260px;
     text-align: center;
     padding-top: 2%;
     color: white;
@@ -96,8 +95,7 @@ nav input{
     width: 90%;
 }
 .cards:hover{
-    transition: 1s;
-    height: 400px;
+    height: 100%;
     box-shadow: 0 0 100px #ffbb00;
 }
 /* SOBRE */
@@ -245,7 +243,7 @@ footer{
 }
 
     
-@media (max-width: 768px) {
+@media (max-width: 400px), (max-height: 840px) {
     header, nav, #banner, #destaques, #sobre, #produtos, #animais, #contato, footer {
         padding: 0 10px;
     }
@@ -282,9 +280,23 @@ footer{
     }
 
     #sobre-conteudo #texto1-esquerda, #sobre-conteudo2 #texto2-direita, #contato-conteudo1 #endereco, #contato-conteudo2 {
-        width: 100%;
+        width: 85%;
         margin-left: 0;
     }
+    
+    #endereco {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        padding: 10px; 
+    }
+
+    #endereco iframe {
+        width: 90%; 
+        height: 250px; 
+    }
+}
 
     #logo-grande img {
         width: 100%;
