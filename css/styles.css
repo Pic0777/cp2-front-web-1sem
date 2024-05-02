@@ -97,7 +97,7 @@ nav input{
 }
 .cards:hover{
     transition: 1s;
-    height: 400px;
+    height: 500px;
     box-shadow: 0 0 100px #ffbb00;
 }
 /* SOBRE */
