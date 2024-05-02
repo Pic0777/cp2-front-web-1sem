@@ -283,7 +283,7 @@ footer{
         width: 85%;
         margin-left: 0;
     }
-    
+
     #endereco {
         display: flex;
         flex-direction: column; 
@@ -296,7 +296,7 @@ footer{
         width: 90%; 
         height: 250px; 
     }
-}
+
 
     #logo-grande img {
         width: 100%;
